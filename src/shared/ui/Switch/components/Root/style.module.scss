@@ -1,0 +1,13 @@
+.switchRoot {
+  display: inline-flex;
+  width: var(--switch-root-w);
+  height: var(--switch-root-h);
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+
+  flex-shrink: 0;
+  z-index: 0;
+  vertical-align: middle;
+  padding: var(--switch-root-padding);
+}

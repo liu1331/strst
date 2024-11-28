@@ -1,0 +1,14 @@
+.switchTrack {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: var(--switch-track-br);
+  background-color: var(--switch-track-bg);
+
+  box-shadow: 0 0 0 1px rgba($color: #ffffff, $alpha: 0.1);
+
+  outline-color: transparent;
+
+  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
